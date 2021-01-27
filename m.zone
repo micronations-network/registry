@@ -1,10 +1,8 @@
 $ORIGIN m.
 $TTL 1d
 
-m.		IN	SOA	ns1.m. hostmaster.pingiun.com. ( 2020101204 1800 900 604800 3600 )
-m.		IN	NS	ns1.internal
-m.		IN	NS	ns2.internal
-ns1.internal	IN	A	159.69.80.121
-ns1.internal	IN	AAAA	2a01:4f8:c2c:d45::2
-ns2.internal	IN	A	51.15.121.66
-ns2.internal	IN	AAAA	2001:bc8:1864:2603::1
+m.	IN	SOA	ns-jelle.internal.m. hostmaster.pingiun.com. ( 2020101204 1800 900 604800 3600 )
+m.	IN	NS	ns-jelle.internal
+
+ns-jelle.internal	IN	A	159.69.80.121
+ns-jelle.internal	IN	AAAA	2a01:4f8:c2c:d45::2
