@@ -3,6 +3,8 @@ $TTL 1d
 
 m.	IN	SOA	ns-jelle.internal.m. hostmaster.pingiun.com. ( 2020101204 1800 900 604800 3600 )
 m.	IN	NS	ns-jelle.internal
+m.	IN	NS	nnu.internal
 
 ns-jelle.internal	IN	A	51.15.121.66
 ns-jelle.internal	IN	AAAA	2001:bc8:1864:2603::1
+nnu.internal	IN	A	67.181.41.49
